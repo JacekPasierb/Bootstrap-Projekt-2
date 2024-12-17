@@ -63,20 +63,29 @@ header {
 }
 
 .home-box i {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .home-box h3 {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 
 .home-passion {
-    position: relative;
-    height: 350px;
-    background-image: url('../img/sunset-685927_640.jpg');
-    background-position: center;
-    background-size: cover;
-    z-index: 0;
+  position: relative;
+  height: 350px;
+  background-image: url("../img/sunset-685927_640.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1.6rem;
 }
 
 @media (min-width: 1400px) {
@@ -95,6 +104,6 @@ header {
   }
 
   .home-passion {
-    background-image: url('../img/sunset-685927_1920.jpg');
+    background-image: url("../img/sunset-685927_1920.jpg");
   }
 }
