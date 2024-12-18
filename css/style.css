@@ -21,6 +21,23 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
+
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  height: 100%;
+}
+
 nav {
   font-size: 2rem;
   text-transform: uppercase;
@@ -80,14 +97,78 @@ header {
 }
 
 .home-brand h3 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 footer {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
+.aboutus-hero {
+  background-image: url("../img/about/highway-2025863_640.jpg");
+  background-position: bottom;
+}
+
+.aboutus-info {
+  background-color: rgb(248, 248, 248);
+}
+.aboutus-info .container {
+  padding: 2em 0.5em;
+}
+
+.aboutus-text {
+  padding: 1.8em;
+}
+.aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline #007bff;
+}
+
+.aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-shadow {
+    box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  .aboutus-text {
+    padding: 5em 0;
+    transform: skew(-15deg);
+  }
+  .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .aboutus-img {
+    height: auto;
+    transform: skew(-15deg);
+  }
+}
 @media (min-width: 1400px) {
   .carousel-item {
     height: 600px;
@@ -105,5 +186,9 @@ footer {
 
   .home-passion {
     background-image: url("../img/sunset-685927_1920.jpg");
+  }
+
+  .aboutus-hero {
+    background-image: url("../img/about/highway-2025863_1920.jpg");
   }
 }
