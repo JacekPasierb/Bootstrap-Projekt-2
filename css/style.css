@@ -233,17 +233,17 @@ footer {
 .contact input,
 .contact select,
 .contact textarea {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .contact .btn {
-    padding: 0.3em 0.8em;
-    font-size: 2rem;
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
 }
 
 .contact-map iframe {
-    width: 100%;
-    min-height: 400px;
+  width: 100%;
+  min-height: 400px;
 }
 @media (min-width: 992px) {
   .aboutus-info .container {
