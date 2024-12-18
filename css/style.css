@@ -179,7 +179,6 @@ footer {
 
 .service-info p {
   font-size: 3rem;
-  
 }
 
 .service-info .card-one {
@@ -196,6 +195,23 @@ footer {
 
 .service-info .card-four {
   background-image: url("../img/services/allinone.jpg");
+}
+
+/* projekts */
+
+.projects-hero {
+  background-image: url("../img/projekts/project-hero.jpg");
+  background-position: center;
+}
+
+.projects img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
