@@ -38,6 +38,8 @@ body {
   height: 100%;
 }
 
+/* nawigacja */
+
 nav {
   font-size: 2rem;
   text-transform: uppercase;
@@ -52,6 +54,8 @@ nav {
   font-weight: bold;
   text-transform: none;
 }
+
+/* header */
 
 header {
   font-size: 2rem;
@@ -75,6 +79,8 @@ header {
   background-image: url("../img/main-carousel-3.jpg");
 }
 
+/* home */
+
 .home-boxes {
   padding: 5em 0;
 }
@@ -87,6 +93,8 @@ header {
   font-size: 2.6rem;
 }
 
+/* ----- */
+
 .home-passion {
   position: relative;
   height: 350px;
@@ -96,19 +104,27 @@ header {
   z-index: 0;
 }
 
+/* ----- */
+
 .home-brand h3 {
   font-size: 3rem;
   font-weight: bold;
 }
 
+/* footer */
+
 footer {
   font-size: 1.6rem;
 }
+
+/* about us */
 
 .aboutus-hero {
   background-image: url("../img/about/highway-2025863_640.jpg");
   background-position: bottom;
 }
+
+/* ----- */
 
 .aboutus-info {
   background-color: rgb(248, 248, 248);
@@ -137,12 +153,49 @@ footer {
   object-fit: cover;
 }
 
+/* ----- */
+
 .aboutus-bottom i {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 .aboutus-bottom h3 {
-    font-size: 2.2rem;
-    font-weight: bold;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+/* service */
+
+.services-hero {
+  background-image: url("../img/services/car-3126964_640.jpg");
+  background-position: 0 75%;
+}
+
+.service-info .card {
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.service-info p {
+  font-size: 3rem;
+  
+}
+
+.service-info .card-one {
+  background-image: url("../img/services/engine.jpg");
+}
+
+.service-info .card-two {
+  background-image: url("../img/services/visual.jpg");
+}
+
+.service-info .card-three {
+  background-image: url("../img/services/car-audio.jpg");
+}
+
+.service-info .card-four {
+  background-image: url("../img/services/allinone.jpg");
 }
 
 @media (min-width: 992px) {
@@ -190,5 +243,9 @@ footer {
 
   .aboutus-hero {
     background-image: url("../img/about/highway-2025863_1920.jpg");
+  }
+
+  .services-hero {
+    background-image: url("../img/services/car-3126964_1920.jpg");
   }
 }
